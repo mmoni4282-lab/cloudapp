@@ -16,11 +16,11 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <div>
-          <h3>Environment Variables:</h3>
-          <p>REACT_APP_KEY_VERSION: {REACT_APP_KEY_VERSION}</p>
-          <p>REACT_APP_KEY_TIME: {REACT_APP_KEY_TIME}</p>
-          <p>REACT_APP_KEY_DATE: {REACT_APP_KEY_DATE}</p>
-          <p>REACT_APP_KEY_PORTAL: {REACT_APP_KEY_PORTAL}</p>
+          <h3>Environment Variable Values:</h3>
+          <p><strong>{REACT_APP_KEY_PORTAL}</strong></p>
+          <p>{REACT_APP_KEY_VERSION}</p>
+          <p>{REACT_APP_KEY_TIME}</p>
+          <p>{REACT_APP_KEY_DATE}</p>
         </div>
         <a
           className="App-link"
